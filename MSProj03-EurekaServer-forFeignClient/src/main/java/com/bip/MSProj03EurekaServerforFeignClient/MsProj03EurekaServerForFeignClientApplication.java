@@ -1,4 +1,4 @@
-package com.example.MSProj01EurekaServerForDiscoveryClient;
+package com.bip.MSProj03EurekaServerforFeignClient;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,11 +6,10 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 @SpringBootApplication
 @EnableEurekaServer
-public class MsProj01EurekaServerForDiscoveryClientApplication {
+public class MsProj03EurekaServerForFeignClientApplication {
 
 	public static void main(String[] args) {
-		System.out.println("Eureka server main() method ");
-		SpringApplication.run(MsProj01EurekaServerForDiscoveryClientApplication.class, args);
+		SpringApplication.run(MsProj03EurekaServerForFeignClientApplication.class, args);
 	}
 
 }

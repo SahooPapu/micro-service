@@ -8,6 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class MsProj01ShoppingServiceConsumerApplication {
 
     public static void main(String[] args) {
+        System.out.println("Service shopping serivice main() method");
         SpringApplication.run(MsProj01ShoppingServiceConsumerApplication.class, args);
     }
 
